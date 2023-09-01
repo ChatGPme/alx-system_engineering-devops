@@ -1,0 +1,17 @@
+0-iam\_betty
+100-change\_owner\_and\_group
+101-symbolic\_link\_permissions
+102-if\_only
+103-Star\_Wars
+10-mirror\_permissions
+11-directories\_permissions
+12-directory\_permissions
+13-change\_group
+1-who\_am\_i
+2-groups
+3-new\_owner
+4-empty5-execute
+6multiple\_permissions
+7-everybody
+8-James\_Bond
+9-John\_Doe
