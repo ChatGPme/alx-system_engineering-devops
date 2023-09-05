@@ -1,0 +1,2 @@
+#!/bin/bash
+sort /etc/passwd -t ':' -k 1 | awk -F ':' '{print $1, $6}'
