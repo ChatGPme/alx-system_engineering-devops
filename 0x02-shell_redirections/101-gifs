@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -depth -type f -name "*.gif" -printf %f'\n' |
+find . -type f -exec basename {} \; | rev | cut -d. -f2- | rev | sort -f | uniq
