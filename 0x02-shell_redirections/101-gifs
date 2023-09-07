@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -exec basename {} \ | rev | cut -d. -f2- | rev | sort -f | uniq
+find . -type f -printf "%f\n" | rev | cut -d. -f2- | rev | LC_ALL=C sort -f | uniq
